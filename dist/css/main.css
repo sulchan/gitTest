@@ -133,6 +133,16 @@
 	box-sizing: border-box;
 }
 
+.homebutton{
+	position: absolute;
+	left: 35px;
+	top: 35px;
+}
+.homebutton a:hover{
+	color: #2fa9bD;
+	transition: all 0.5s ease-out;
+}
+
 body{
 	background: #444;
 	color: #fff;
@@ -312,7 +322,11 @@ main .icons a:hover{
 /*Media Query*/
 
 @media screen and (max-width: 640px) {
- 	main {
+	.homebutton{
+		display: none;
+	}
+	
+	main {
     	align-items: center;
     	text-align: center; 
 	}
