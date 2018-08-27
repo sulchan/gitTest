@@ -248,7 +248,7 @@ main .icons a:hover{
 	border-bottom: #2FA9BD 5px solid;
 }
 .parallax{
-	margin: 0 0rem 0 -4rem;
+	margin: 0 0 0 -4rem;
 	height: 45vh;
 	width: 100vw;
 	background-image: url(../img/work/titlePano-c.jpg);
@@ -358,6 +358,9 @@ main .icons a:hover{
     main .lg-heading {
     	margin-top: 1rem;
     	font-size: 5rem; 
+	}
+	.parallax{
+		margin: 0 0 0 -2rem;
 	}
 }
 
